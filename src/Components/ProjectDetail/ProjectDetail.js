@@ -29,7 +29,6 @@ class ProjectDetail extends Component {
         else{
             return(
                 this.props.info.map(item => {
-                    console.log(item)
                     if(projectId===item.id){
                         return(
                             <div key={item.id}>

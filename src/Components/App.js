@@ -6,7 +6,7 @@ import {
 import './App.css';
 import Body from './Body/Body.js';
 import ProjectDetail from './ProjectDetail/ProjectDetail.js';
-
+import Github from './Links/Github';
 
 class App extends Component {
     render() {
@@ -14,6 +14,7 @@ class App extends Component {
             <div className="App">
                 <Route exact path="/" component={Body}/>
                 <Route path="/projectDetail" component={ProjectDetail} />
+                <Route path="/github" component={Github} />
             </div>
         );
     }
