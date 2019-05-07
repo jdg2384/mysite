@@ -5,8 +5,8 @@ import {
   POSTLINK
 } from './types';
 
-//const api = 'http://localhost:3001/api'
-const api = 'https://peaceful-tor-89083.herokuapp.com/api'
+const api = 'http://localhost:3001/api'
+// const api = 'https://peaceful-tor-89083.herokuapp.com/api'
 
 export const projectInfo = () => {
     return (dispatch) => {
