@@ -12,7 +12,6 @@ class Github extends Component {
             vars[key] = value;
         },10000);
         vars.viewed_time = new Date().toLocaleString()
-        console.log("vars",vars.link)
         postLink(vars)
         window.location = `https://github.com/jdg2384/work/blob/master/${vars.link}`;
     }

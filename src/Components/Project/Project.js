@@ -1,4 +1,3 @@
-// Redux Imports
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 //import Sticky from 'react-stickynode';
@@ -77,7 +76,6 @@ class Project extends Component {
     }
 }
 const mapStateToProps = state => {
-    console.log('state = ',state.projects.hover)
     let { info, hover } = state.projects
     return { 
        info,

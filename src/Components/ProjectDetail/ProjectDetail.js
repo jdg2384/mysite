@@ -18,7 +18,11 @@ import {
 
 class ProjectDetail extends Component {
     componentDidMount() {
+        this.scrollerHandler()
         this.props.projectInfo()
+    }
+    scrollerHandler(){
+        window.scrollTo(0,0)
     }
     renderProject =()=>{
         let projectId = Number(this.props.location.pathname.match(/[0-9]/gi)[0]);
