@@ -3,9 +3,11 @@ text-decoration: none !important;
 }
 h1{
 color: #fff;
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 80px !important;
+font-weight: 600;
 margin-top: 10px;
+padding: 5px 0;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00c2cb+0,00c2cb+46,00a4cb+100 */
 background: rgb(0,194,203); /* Old browsers */
 background: -moz-linear-gradient(left, rgba(0,194,203,1) 0%, rgba(0,194,203,1) 46%, rgba(0,164,203,1) 100%); /* FF3.6-15 */
@@ -15,9 +17,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c2cb', end
 }
 h2{
 color: #fff;
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 55px !important;
 margin-top: 10px;
+font-weight: 200;
 text-decoration: none !important;
 }
 .h2Backgrounds{
@@ -32,7 +35,7 @@ margin-right:25%;
 }
 h3{
 color: rgb(90, 90, 90);
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 line-height: 1.5em;
 font-size: 25px !important;
 margin-top: 30px;

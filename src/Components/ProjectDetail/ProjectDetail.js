@@ -39,7 +39,7 @@ class ProjectDetail extends Component {
                                 <div className="container-fluid ">
                                     <div className="row">
                                         <div className="col-md-12 noPadding">
-                                            <img src={item.image} style={{backgroundImage: "url(" + item.image + ")", height:'100vh', width: '100%'}} className="text-center" alt={item.title}/>
+                                            <img src={item.image} style={{backgroundImage: "url(" + item.image + ")", height:'70vh', width: '100%'}} className="text-center" alt={item.title}/>
                                         </div>
                                         <div className="col-md-12 title littlePadding">
                                             <h1>{item.title}</h1>
@@ -49,7 +49,8 @@ class ProjectDetail extends Component {
                                 <div className="container-fluid ">
                                     <div className="row">
                                         <div className="col-md-6 description">
-                                            <h2>{item.description}</h2>
+                                            <h2 style={{color:'#fff',}}>Description</h2>
+                                            <h3 style={{color:'#fff',}}>{item.description}</h3>
                                         </div>
                                         <div className="col-md-6 bullets">
                                             <h2 style={{color:'#585858',}}>Tech Used</h2>
