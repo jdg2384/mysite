@@ -12,15 +12,13 @@ border-right: 5px solid;
 border-left: 10px solid;
 border-color: #fff;
 }
-.descriptionTwo{
+.tech{
 height: 40vh;
-background-color:#fff;
-margin-bottom: 10px;
-overflow: hidden;
-position: relative;
-border-right: 10px solid;
+padding: 40px;
 border-left: 5px solid;
+border-right: 10px solid;
 border-color: #fff;
+background-color: #ECE9E1;    
 }
 .gitHubBack{
 height: 40vh;
@@ -31,13 +29,15 @@ border-right: 5px solid;
 border-left: 10px solid;
 border-color: #fff;
 }
-.bullets{
+.picture-background{
 height: 40vh;
-padding: 40px;
-border-left: 5px solid;
+background-color:#fff;
+margin-bottom: 10px;
+overflow: hidden;
+position: relative;
 border-right: 10px solid;
+border-left: 5px solid;
 border-color: #fff;
-background-color: #ECE9E1;    
 }
 .fab{
 color:#fff;
@@ -53,48 +53,66 @@ padding-left: 10px !important;
 padding-right: 10px !important;    
 }
 
-/* @media all and (max-width: 1400px) { 
+@media all and (max-width: 2500px) { 
     .description{
         height: 30vh;
     }
-    .bullets{
+    .tech{
         height: 30vh;    
     }
     .gitHubBack{
         height: 30vh;
     }
-    .descriptionTwo{
+    .picture-background{
         height: 30vh;
     }
-} */
+}
 @media all and (max-width: 1024px) { 
     .description{
-        height: 100%;
+        height: 35vh;
         padding: 40px;
         margin-bottom: 10px;
         border-right: 10px solid;
         border-left: 10px solid;
         border-color: #fff;
     }
-    .bullets{
-        height: 100%;
+    .tech{
+        height: 35vh;
         border-left: 10px solid;
         border-right: 10px solid; 
         border-color: #fff;   
     }
     .gitHubBack{
-        height: 100%;
+        height: 35vh;
         margin: 10px 0;
         border-right: 10px solid;
         border-left: 10px solid;
         border-color: #fff;   
     }
-    .descriptionTwo{
-        height: 45vh;
+    .picture-background{
+        height: 35vh;
         margin: 10px 0;
 
         border-right: 10px solid;
         border-left: 10px solid;
         border-color: #fff;
+    }
+}
+@media all and (max-width: 768px) { 
+    .description{
+        height: 25vh;
+        padding: 15px;
+    }
+    .tech{
+        height: 25vh;
+        padding: 15px;    
+    }
+    .gitHubBack{
+        height: 25vh;
+        padding: 15px;
+    }
+    .picture-background{
+        height: 25vh;
+        padding: 15px;
     }
 }
