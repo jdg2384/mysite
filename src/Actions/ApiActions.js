@@ -22,7 +22,7 @@ export const projectInfo = () => {
 }
 
 export const postLink = (data) => {
-    axios.post(`https://floating-scrubland-96179.herokuapp.com/gaaresume`, {
+    axios.post(`https://floating-scrubland-96179.herokuapp.com/resume`, {
         data: data
     })
     .then(function (response) {
