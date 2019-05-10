@@ -53,18 +53,18 @@ padding-left: 10px !important;
 padding-right: 10px !important;    
 }
 
-@media all and (max-width: 2500px) { 
+@media all and (max-width: 1440px) { 
     .description{
-        height: 30vh;
+        height: 40vh;
     }
     .tech{
-        height: 30vh;    
+        height: 40vh;    
     }
     .gitHubBack{
-        height: 30vh;
+        height: 40vh;
     }
     .picture-background{
-        height: 30vh;
+        height: 40vh;
     }
 }
 @media all and (max-width: 1024px) { 
