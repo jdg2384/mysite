@@ -5,8 +5,8 @@ import {
   POSTLINK
 } from './types';
 
-const api = 'http://localhost:3001/api'
-// const api = 'https://peaceful-tor-89083.herokuapp.com/api'
+// const api = 'http://localhost:3001/api'
+const api = 'https://floating-scrubland-96179.herokuapp.com/api'
 
 export const projectInfo = () => {
     return (dispatch) => {
@@ -22,7 +22,7 @@ export const projectInfo = () => {
 }
 
 export const postLink = (data) => {
-    axios.post(`http://localhost:3001/resume`, {
+    axios.post(`https://floating-scrubland-96179.herokuapp.com/gaaresume`, {
         data: data
     })
     .then(function (response) {
