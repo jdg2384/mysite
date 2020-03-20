@@ -53,24 +53,34 @@ class About extends Component {
                             <table className="table">
                                 <tbody>
                                     <tr>
-                                        <td><h5>Python Django</h5></td>
                                         <td><h5>JavaScript</h5></td>
+                                        <td><h5>React</h5></td>
+                                        <td><h5>React Native</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h5>Redux.js</h5></td>
+                                        <td><h5>Flux.js</h5></td>
+                                        <td><h5>Swagger</h5></td>
+                                    </tr>
+                                    <tr>
                                         <td><h5>Node.js</h5></td>
-                                    </tr>
-                                    <tr>
-                                        <td><h5>React.js</h5></td>
                                         <td><h5>Express.js</h5></td>
-                                        <td><h5>Knex.js</h5></td>
+                                        <td><h5>Ruby on Rails</h5></td>
                                     </tr>
                                     <tr>
-                                        <td><h5>Mongoose.js</h5></td>
+                                        <td><h5>SQL</h5></td>
+                                        <td><h5>PostgreSQL</h5></td>
+                                        <td><h5>MongoDB</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h5>JSX</h5></td>
                                         <td><h5>HTML</h5></td>
                                         <td><h5>CSS</h5></td>
                                     </tr>
                                     <tr>
-                                        <td><h5>SQL</h5></td>
-                                        <td><h5>Postgres</h5></td>
-                                        <td><h5>MongoDB</h5></td>
+                                        <td><h5>Supertest.js</h5></td>
+                                        <td><h5>Mocha.js</h5></td>
+                                        <td><h5>Chai.js</h5></td>
                                     </tr>
                                 </tbody>
                             </table>
