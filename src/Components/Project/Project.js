@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-//import Sticky from 'react-stickynode';
 import Sticky from 'react-sticky-el';
-// CSS
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import 'font-awesome/css/font-awesome.css';
 import './project.css';
 import '../Common/common.css';
-//Images
 import hat from '../../Images/hat.svg';
-// Redux Actions
 import {
     projectInfo,
     onHoverRender,
 } from '../../Actions';
-// Router
 import {
     Link,
 } from "react-router-dom";
@@ -23,13 +18,14 @@ import {
 class Project extends Component {
 
     componentDidMount() {
-        this.props.projectInfo()
-        this.props.onHoverRender()
+        const { projectInfo, onHoverRender } = this.props;
+        projectInfo()
+        onHoverRender()
     }
     
     renderList=()=>{
-        let projectData = this.props.info;
-        if(!projectData){return <div>Loading...</div>}
+        const { info }= this.props;
+        if(!info){return <div>Loading...</div>}
         else{
             return (
                 <div>
@@ -42,7 +38,7 @@ class Project extends Component {
                         </Sticky>
                     </div>
                     <div className="col-md-6 projectBorder text-center curveTwo color">
-                        { this.props.info.map(item => {
+                        { info.map(item => {
                             return (
                                 <div className="projectLink" key={item.id}>
                                     <Link key={item.id} to={`/projectDetail/${item.title}/${item.id}`}>
@@ -51,7 +47,6 @@ class Project extends Component {
                                                 style={{backgroundImage: "url(" + item.image + ")"}}
                                             >
                                             <img src={item.image_two} className=" text-center logo" alt={item.title} />
-                                            {/* <h2>{item.title}</h2>   */}
                                             </div>
                                         </div>
                                     </Link>
@@ -75,6 +70,7 @@ class Project extends Component {
         );
     }
 }
+
 const mapStateToProps = state => {
     let { info, hover } = state.projects
     return { 
@@ -82,6 +78,7 @@ const mapStateToProps = state => {
        hover,
     };
 };
+
 export default connect(mapStateToProps, {
     projectInfo,
     onHoverRender

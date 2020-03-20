@@ -18,7 +18,7 @@ padding: 40px;
 border-left: 5px solid;
 border-right: 10px solid;
 border-color: #fff;
-background-color: #ECE9E1;    
+background-color: #ECE9E1 !important ;     
 }
 .gitHubBack{
 height: 40vh;
